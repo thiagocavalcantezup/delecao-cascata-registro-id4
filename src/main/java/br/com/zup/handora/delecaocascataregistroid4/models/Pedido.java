@@ -1,6 +1,7 @@
 package br.com.zup.handora.delecaocascataregistroid4.models;
 
 import java.math.BigDecimal;
+import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -30,7 +31,7 @@ public class Pedido {
 
     @Column(nullable = false)
     @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
-    private Set<ItemDePedido> itens;
+    private Set<ItemDePedido> itens = new HashSet<>();
 
     /**
      * @deprecated Construtor de uso exclusivo do Hibernate
