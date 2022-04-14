@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DelecaoCascataRegistroId4Application<delecao-cascata-registro-id4>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "br.com.zup.handora.delecaocascataregistroid4.DelecaoCascataRegistroId4Application",
+      "projectName": "delecao-cascata-registro-id4",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
